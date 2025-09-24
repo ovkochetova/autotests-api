@@ -38,8 +38,10 @@ class Exercise(TypedDict):
     description: str
     estimatedTime: str
 
+class CreateExerciseResponseDict(TypedDict):
+    exercise: Exercise
 
-class GetExerciseResponseDict(TypedDict):
+class GetExercisesResponseDict(TypedDict):
     """
     Описание структуры ответа создания задания.
     """
@@ -109,19 +111,19 @@ class ExercisesClient(APIClient):
         """
         return self.delete(f"/api/v1/exercises/{exercise_id}")
 
-    def get_exercises(self, query: GetExerciseQueryDict) -> GetExerciseResponseDict:
+    def get_exercises(self, query: GetExerciseQueryDict) -> GetExercisesResponseDict:
         response = self.get_exercises_api(query)
         return response.json()
 
-    def create_exercise(self, request: CreateExerciseDict) -> Exercise:
+    def create_exercise(self, request: CreateExerciseDict) -> CreateExerciseResponseDict:
         response = self.create_exercise_api(request)
         return response.json()
 
-    def get_exercise(self, exercise_id: str) -> GetExerciseResponseDict:
+    def get_exercise(self, exercise_id: str) -> GetExercisesResponseDict:
         response = self.get_exercise_api(exercise_id)
         return response.json()
 
-    def update_exercise(self, exercise_id: str, request: UpdateExerciseDict) -> Exercise:
+    def update_exercise(self, exercise_id: str, request: UpdateExerciseDict) -> CreateExerciseResponseDict:
         response = self.update_exercise_api(exercise_id, request)
         return response.json()
 

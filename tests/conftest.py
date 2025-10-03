@@ -7,7 +7,6 @@ from clients.users.private_users_client import PrivateUsersClient, get_private_u
 from clients.users.public_users_client import PublicUsersClient, get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 
-
 class UserFixture(BaseModel):
     request: CreateUserRequestSchema
     response: CreateUserResponseSchema

@@ -23,7 +23,6 @@ def test_create_user(public_users_client: PublicUsersClient):
 
     validate_json_schema(create_response.json(), create_response_data.model_json_schema())
 
-
 @pytest.mark.users
 @pytest.mark.regression
 def test_get_user_me(private_users_client: PrivateUsersClient, function_user):

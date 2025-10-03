@@ -30,6 +30,8 @@ def test_get_user_me(private_users_client: PrivateUsersClient, function_user):
     get_me_response = private_users_client.get_user_me_api()
     get_me_response_data = GetUserResponseSchema.model_validate_json(get_me_response.text)
 
+    print('get_me_response_data:', get_me_response_data)
+    print('function_user:', function_user)
     assert_status_code(get_me_response.status_code, HTTPStatus.OK)
     assert_get_user_response(get_me_response_data, function_user.response)
 

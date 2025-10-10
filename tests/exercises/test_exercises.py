@@ -5,11 +5,12 @@ from httpx import request
 
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import CreateExerciseSchema, CreateExerciseResponseSchema, \
-     GetExerciseResponseSchema
+    GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
-from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response
+from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
+    assert_update_exercise_response
 from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.exercises
@@ -31,8 +32,8 @@ class TestExercises:
         # Проверяем соответствие JSON-ответа схеме
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-    def test_get_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
         # Отправляем GET-запрос на запрос курса по его ид
+    def test_get_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
         response = exercises_client.get_exercise_api(function_exercise.response.exercise.id)
         # Десериализуем JSON-ответ в Pydantic-модель
         response_data = GetExerciseResponseSchema.model_validate_json(response.text)
@@ -41,6 +42,22 @@ class TestExercises:
         assert_status_code(response.status_code, HTTPStatus.OK)
         # Проверяем, что список данные, переданные при создании совпадают с данными, возвращенными от сервера
         assert_get_exercise_response(response_data, function_exercise.response)
+
+        # Проверяем соответствие JSON-ответа схеме
+        validate_json_schema(response.json(), response_data.model_json_schema())
+
+    def test_update_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
+        # Формируем модель запроса
+        request = UpdateExerciseRequestSchema()
+        # Отправляем PATCH-запрос на обновление задания
+        response = exercises_client.update_exercise_api(exercise_id=function_exercise.response.exercise.id, request=request)
+        # Десериализуем JSON-ответ в Pydantic-модель
+        response_data = UpdateExerciseResponseSchema.model_validate_json(response.text)
+
+        # Проверяем, что код ответа 200 OK
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        # Проверяем, что список данные, переданные при создании совпадают с данными, возвращенными от сервера
+        assert_update_exercise_response(request, response_data)
 
         # Проверяем соответствие JSON-ответа схеме
         validate_json_schema(response.json(), response_data.model_json_schema())

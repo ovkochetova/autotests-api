@@ -39,13 +39,23 @@ class ExerciseSchema(BaseModel):
     estimated_time: str = Field(alias="estimatedTime")
 
 class CreateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа создания задания.
+    """
+    model_config = ConfigDict(populate_by_name=True)
     exercise: ExerciseSchema
 
 class GetExercisesResponseSchema(BaseModel):
     """
-    Описание структуры ответа создания задания.
+    Описание структуры ответа на запрос задания по ид курса.
     """
     exercises: list[ExerciseSchema]
+
+class GetExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на запрос задания по ид задания.
+    """
+    exercise: ExerciseSchema
 
 class UpdateExerciseSchema(BaseModel):
     """

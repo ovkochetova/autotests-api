@@ -1,6 +1,8 @@
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import CreateExerciseResponseSchema, CreateExerciseSchema, \
     GetExerciseResponseSchema, ExerciseSchema, UpdateExerciseResponseSchema, UpdateExerciseRequestSchema
 from tools.assertions.base import assert_equal
+from tools.assertions.errors import assert_internal_error_response
 
 
 def assert_create_exercise_response(request: CreateExerciseSchema, response: CreateExerciseResponseSchema):
@@ -62,6 +64,17 @@ def assert_update_exercise_response(request: UpdateExerciseRequestSchema, respon
     assert_equal(request.description, response.exercise.description, "description")
     assert_equal(request.estimated_time, response.exercise.estimated_time, "estimated_time")
     assert_equal(request.description, response.exercise.description, "description")
+
+def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Функция для проверки внутренней ошибки. Например, ошибки 404 (File not found).
+
+    :param actual: Фактический ответ API.
+    :param expected: Ожидаемый ответ API.
+    :raises AssertionError: Если значения полей не совпадают.
+    """
+    expected = InternalErrorResponseSchema(detail="Exercise not found")
+    assert_internal_error_response(actual, expected)
 
 
 

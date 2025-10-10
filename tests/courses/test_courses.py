@@ -20,7 +20,6 @@ class TestCourses:
     def test_create_course(
             self,
             courses_client: CoursesClient,
-            function_course: CourseFixture,
             function_user: UserFixture,
             function_file: FileFixture
     ):

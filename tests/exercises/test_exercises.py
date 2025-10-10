@@ -1,16 +1,18 @@
 from http import HTTPStatus
 
 import pytest
+from httpx import request
 
 from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import CreateExerciseSchema, CreateExerciseResponseSchema, \
-    GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
+    GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema, GetExerciseQuerySchema, \
+    GetExercisesResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
-    assert_update_exercise_response, assert_exercise_not_found_response
+    assert_update_exercise_response, assert_exercise_not_found_response, assert_get_exercises_response
 from tools.assertions.schema import validate_json_schema
 
 
@@ -64,7 +66,7 @@ class TestExercises:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     def test_delete_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
-        # Удаляем файл
+        # Удаляем задание
         delete_response = exercises_client.delete_exercise_api(exercise_id=function_exercise.response.exercise.id)
         # Проверяем, что файл успешно удален (статус 200 OK)
         assert_status_code(delete_response.status_code, HTTPStatus.OK)
@@ -79,3 +81,20 @@ class TestExercises:
 
         # Проверяем, что ответ соответствует схеме
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
+
+    def test_get_exercises(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture, function_course: CourseFixture):
+        # Формируем структуру запроса
+        query = GetExerciseQuerySchema(course_id=function_course.response.course.id)
+        # Отправляем GET-запрос на получение списка заданий
+        response = exercises_client.get_exercises_api(query)
+        # Десериализуем JSON-ответ в Pydantic-модель
+        response_data = GetExercisesResponseSchema.model_validate_json(response.text)
+
+        # Проверяем, что код ответа 200 OK
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        # Проверяем, что список данные, переданные при создании совпадают с данными, возвращенными от сервера
+        assert_get_exercises_response(response_data, [function_exercise.response])
+
+        # Проверяем, что ответ соответствует схеме
+        validate_json_schema(response.json(), response_data.model_json_schema())
+

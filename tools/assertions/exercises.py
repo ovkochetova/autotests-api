@@ -4,8 +4,9 @@ from clients.exercises.exercises_schema import CreateExerciseResponseSchema, Cre
     GetExercisesResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.errors import assert_internal_error_response
+import allure
 
-
+@allure.step("Check create exercise response")
 def assert_create_exercise_response(request: CreateExerciseSchema, response: CreateExerciseResponseSchema):
     """
     Проверяет, что ответ на создание задания соответствует запросу.
@@ -22,7 +23,7 @@ def assert_create_exercise_response(request: CreateExerciseSchema, response: Cre
     assert_equal(request.description, response.exercise.description, "description")
     assert_equal(request.estimated_time, response.exercise.estimated_time, "estimated_time")
 
-
+@allure.step("Check exercise")
 def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     """
     Проверяет, что фактические данные задания соответствуют ожидаемым.
@@ -39,7 +40,7 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     assert_equal(actual.description, expected.description, "description")
     assert_equal(actual.estimated_time, expected.estimated_time, "estimated_time")
 
-
+@allure.step("Check get exercise response")
 def assert_get_exercise_response(get_exercise_response: GetExerciseResponseSchema , get_create_exercise: CreateExerciseResponseSchema):
     """
     Проверяет, что ответ на получение файла соответствует ответу на его создание.
@@ -50,6 +51,7 @@ def assert_get_exercise_response(get_exercise_response: GetExerciseResponseSchem
     """
     assert_exercise(get_exercise_response.exercise, get_create_exercise.exercise)
 
+@allure.step("Check update exercise response")
 def assert_update_exercise_response(request: UpdateExerciseRequestSchema, response: UpdateExerciseResponseSchema):
     """
     Проверяет, что ответ на обновление задания соответствует данным из запроса.
@@ -66,6 +68,7 @@ def assert_update_exercise_response(request: UpdateExerciseRequestSchema, respon
     assert_equal(request.estimated_time, response.exercise.estimated_time, "estimated_time")
     assert_equal(request.description, response.exercise.description, "description")
 
+@allure.step("Check get deleted exercise response")
 def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     """
     Функция для проверки внутренней ошибки. Например, ошибки 404 (File not found).
@@ -77,6 +80,7 @@ def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     expected = InternalErrorResponseSchema(detail="Exercise not found")
     assert_internal_error_response(actual, expected)
 
+@allure.step("Check get exercises response")
 def assert_get_exercises_response(get_exercises_response: GetExercisesResponseSchema, create_exercise_response: list[CreateExerciseResponseSchema]):
     """
     Проверяет, что ответ на получение списка заданий соответствует ответам на их создание.

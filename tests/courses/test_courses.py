@@ -92,5 +92,3 @@ class TestCourses:
         assert_update_course_response(request, response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
-        print('response.json():', response.json())
-        print('response_date.model_json_schema():', response_data.model_json_schema())

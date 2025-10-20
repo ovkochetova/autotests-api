@@ -15,8 +15,6 @@ from tools.fakers import  fake
 import allure
 from allure_commons.types import Severity
 
-
-
 @pytest.mark.users
 @pytest.mark.regression
 @allure.tag(AllureTag.USERS, AllureTag.REGRESSIONS)

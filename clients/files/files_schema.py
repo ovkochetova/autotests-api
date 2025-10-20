@@ -16,7 +16,7 @@ class CreateFileRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание файла.
     """
-    filename: pydantic.FilePath = Field(default_factory=lambda: f"{fake.uuid4()}.png")
+    filename: pydantic.FilePath = Field(default_factory=lambda: f"{fake.uuid4()}.png")  #
     directory: str = Field(default= "tests")
     upload_file: str
 

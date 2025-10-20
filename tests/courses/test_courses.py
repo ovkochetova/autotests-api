@@ -64,12 +64,10 @@ class TestCourses:
     ):
         # Формируем параметры запроса, передавая user_id
         query = GetCoursesQuerySchema(user_id = function_user.response.user.id)
-        print('query:', query)
         # Отправляем GET-запрос на получение списка курсов
         response = courses_client.get_courses_api(query)
         # Десериализуем JSON-ответ в Pydantic-модель
         response_data = GetCoursesResponseSchema.model_validate_json(response.text)
-        print('response_data:', response_data)
 
         # Проверяем, что код ответа 200 OK
         assert_status_code(response.status_code, HTTPStatus.OK)

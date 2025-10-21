@@ -90,7 +90,6 @@ jobs:
         uses: actions/download-artifact@v5
         with:
             name: allure-results
-            path: allure-results
 
       # 2. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages

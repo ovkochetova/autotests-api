@@ -1,9 +1,0 @@
-INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
-INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
-INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
-INFO     USER_ASSERTIONS:users.py:11 Create user response: user=UserSchema(id='170715d7-6060-44b0-b523-e2cb3d3b4fde', email='fekla_68@mail.ru', first_name='Лидия', last_name='Ларионов', middle_name='Федосий')
-INFO     BASE_ASSERTIONS:base.py:19 Check that 'email' equals to fekla_68@mail.ru
-INFO     BASE_ASSERTIONS:base.py:19 Check that 'first_name' equals to Лидия
-INFO     BASE_ASSERTIONS:base.py:19 Check that 'last_name' equals to Ларионов
-INFO     BASE_ASSERTIONS:base.py:19 Check that 'middle_name' equals to Федосий
-INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

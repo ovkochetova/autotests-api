@@ -22,7 +22,7 @@ class FilesClient(APIClient):
 
     @allure.step("Delete file")
     def delete_file_api(self, file_id: str) -> Response:
-        return self.delete(f"APIRoutes.FILES/{file_id}")
+        return self.delete(f"{APIRoutes.FILES}/{file_id}")
 
     def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
         response = self.create_file_api(request)

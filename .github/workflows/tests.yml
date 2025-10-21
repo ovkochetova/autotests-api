@@ -78,7 +78,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: allure-results
-          path: allure-results/
+          path: allure-results
 
   publish-report:
     needs: run-tests
@@ -90,7 +90,7 @@ jobs:
         uses: actions/download-artifact@v5
         with:
             name: allure-results
-            path: allure-results/
+            path: allure-results
 
       # 2. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages

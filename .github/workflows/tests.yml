@@ -54,7 +54,7 @@ jobs:
       # 7. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
       - name: Run API tests with pytest and generate Allure results
         run: |
-          pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
+          pytest -m regression --alluredir=allure-results --numprocesses=2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
@@ -73,7 +73,25 @@ jobs:
           allure_results: allure-results  # Указываем каталог с результатами тестов
           allure_history: allure-history  # Указываем каталог для истории отчётов Allure
 
-      # 10. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      # 10. Шаг для сохранения отчета
+      - name:  Upload test artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Шаг загрузки отчета
+      - name: Download test artifacts
+        uses: actions/download-artifact@v5
+        with:
+            name: allure-results
+
+      # 2. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()  # Выполняется всегда, независимо от успеха других шагов
         uses: peaceiris/actions-gh-pages@v4  # Используем GitHub Action для публикации отчёта на GitHub Pages

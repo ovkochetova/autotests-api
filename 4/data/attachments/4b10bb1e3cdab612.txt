@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDEwOjUwOjQ1LjEyNzc0NyIsInVzZXJfaWQiOiI3MWExMzJiNy0wYWYyLTQzZmItODEzMC0yMDI2MDU0MzM5NzIifQ.8swv9VgP8tMwOWOy0QJr1MuziNEX02BCBTktk6Xc_C4' \
+  -H 'content-length: 451' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Сверкать угол дрогнуть уронить трясти назначить.","maxScore":72,"minScore":3,"description":"Адвокат светило гулять князь. Потянуться ремень отъезд налоговый. Оставить народ столетие.","estimatedTime":"6 weeks","previewFileId":"b2c83522-1416-4e3b-8cda-060de2a54acb","createdByUserId":"71a132b7-0af2-43fb-8130-202605433972"}'

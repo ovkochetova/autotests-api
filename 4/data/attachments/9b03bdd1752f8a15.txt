@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDEwOjUwOjQ5LjI3Mjk3MyIsInVzZXJfaWQiOiI2ZTA4Mjg5Yi0wNmZmLTQwYTctYjk5Mi01MmQ5NjA2ODk1MWEifQ.ARKCciilx9RjTL-rzoSnHLsDqg-m5k_YBigyjdGlyqs' \
+  -H 'content-length: 594' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Исполнять мимо сходить мера тысяча жить бегать очко.","description":"Мрачно жестокий возникновение пламя спорт. Вообще уничтожение передо нервно белье. Зато расстройство конференция блин порт выкинуть.\nРадость подробность сверкающий труп указанный настать.","courseId":"7f941826-7253-467c-a3cf-52274732aaa8","maxScore":95,"minScore":8,"orderIndex":10,"estimatedTime":"1 weeks"}'

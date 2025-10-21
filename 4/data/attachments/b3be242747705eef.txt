@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDEwOjUwOjQ5LjI3Mjk3MyIsInVzZXJfaWQiOiI2ZTA4Mjg5Yi0wNmZmLTQwYTctYjk5Mi01MmQ5NjA2ODk1MWEifQ.ARKCciilx9RjTL-rzoSnHLsDqg-m5k_YBigyjdGlyqs' \
+  -H 'content-length: 611' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Дорогой дошлый ручей лететь светило.","maxScore":68,"minScore":36,"description":"Пасть сопровождаться тревога мгновение коричневый мрачно пересечь. Угроза настать головка скрытый вперед слать ложиться.\nПесенка печатать пламя дыхание фонарик. Блин настать забирать при.","estimatedTime":"7 weeks","previewFileId":"735d693d-99b8-4e8a-a267-b046068c9985","createdByUserId":"6e08289b-06ff-40a7-b992-52d96068951a"}'

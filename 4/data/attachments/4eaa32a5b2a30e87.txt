@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDEwOjUwOjQ4LjA0ODQ1NiIsInVzZXJfaWQiOiIwNmU5M2UyYi02Yjg3LTQ5YTktYmQ2Ni00M2RjYTI0MjI5NjIifQ.Qu3BUjXuSMH_eM9M15jgVwpFruHlNJ5_I0XjXNDzrzI' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Интернет увеличиваться витрина слишком функция спалить конференция.","maxScore":99,"minScore":34,"description":"Невыносимый еврейский тусклый ставить лететь бровь успокоиться.","estimatedTime":"7 weeks","previewFileId":"420d799a-3251-4544-beb9-f98e5f36f0e8","createdByUserId":"06e93e2b-6b87-49a9-bd66-43dca2422962"}'

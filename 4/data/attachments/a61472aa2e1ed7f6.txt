@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIxVDEwOjUwOjQ3LjQ2Nzk5OCIsInVzZXJfaWQiOiI4NjUwNjg3Zi1mYWVkLTQ3NGItODhjNi01MzYyZjc5ZWJkOTEifQ.blvIklunRp3ghf8CNuvOObIjrW9XRk32XjJ6JwRRtEs' \
+  -H 'content-length: 624' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Потрясти интернет приходить да протягивать тревога.","maxScore":76,"minScore":27,"description":"Исполнять способ упор задрать число. Секунда носок триста идея художественный слишком. Советовать ботинок засунуть задрать. Угроза вздрагивать пропадать падать провал поймать миф.","estimatedTime":"8 weeks","previewFileId":"5307166b-92eb-4307-87db-23350171005e","createdByUserId":"8650687f-faed-474b-88c6-5362f79ebd91"}'

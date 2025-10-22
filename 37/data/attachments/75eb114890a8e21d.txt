@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f7539402-dbb1-46f2-b889-f6c9914cc302' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjExOjE1LjgyNDI1MSIsInVzZXJfaWQiOiJiMmI0NjViMC1hMDIxLTQyMDktYmMxZC1mZGYzNjI5Njc5MmIifQ.zYhMHLDhqOF78_ddRHd0XM1v7Pn8-TCFx6YiiJh3Xf0' \
+  -H 'content-length: 457' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Сустав достоинство порядок терапия падаль.","maxScore":76,"minScore":3,"description":"Решетка слишком инвалид идея. Точно заложить триста слишком. Спорт применяться школьный неправда человечек заработать.\nОдин видимо видимо порода зато неправда.","estimatedTime":"5 weeks"}'

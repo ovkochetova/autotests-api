@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjExOjEyLjg4MDk1NSIsInVzZXJfaWQiOiIxNTE0OThmYS1lNGZhLTQxNGMtODNhMS01ZGI3NmMwMzA1OGEifQ.O8v2cu6dBpDRMADHGElws_avLytWQDzdFc3OIkfNCTE' \
+  -H 'content-length: 513' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Миллиард товар нервно затянуться.","maxScore":66,"minScore":45,"description":"Освободить даль правление отъезд. Мрачно вздрогнуть засунуть помимо танцевать точно команда следовательно. За естественный освобождение.","estimatedTime":"10 weeks","previewFileId":"119a35f6-f88d-45da-a8b6-514006433c93","createdByUserId":"151498fa-e4fa-414c-83a1-5db76c03058a"}'

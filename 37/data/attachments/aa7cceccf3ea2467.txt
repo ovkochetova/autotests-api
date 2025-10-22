@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjExOjE1LjI3MDk0MSIsInVzZXJfaWQiOiIyN2Q5MGEwOC04YjlkLTQ4OGEtYTkxZS0wY2Y4MWNhOWU3NDUifQ.RQ5KelM9et7BtKgak5oFJNJ3jpXv0IdpKV0WPCoIAO4' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Еврейский дружно тревога угол похороны намерение.","maxScore":82,"minScore":34,"description":"Еврейский помимо пропадать манера при неудобно. Интернет банда а носок миф юный.","estimatedTime":"9 weeks","previewFileId":"562c0fa5-40cb-4da3-a0a0-796b7e324ee5","createdByUserId":"27d90a08-8b9d-488a-a91e-0cf81ca9e745"}'

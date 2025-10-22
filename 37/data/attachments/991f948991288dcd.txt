@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjExOjEyLjAzOTM3NCIsInVzZXJfaWQiOiJhMzZkYmIyYi0zN2E4LTQ0ZTMtOGI3Yi02MzZkMzBhYzg2YTcifQ.n_1KmkfQpPgUUpwPqb4khfXs57vekVsxxTz3_JbH08c' \
+  -H 'content-length: 627' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Наступать редактор парень рассуждение число руководитель.","maxScore":71,"minScore":12,"description":"Какой невозможно запретить дошлый военный выразить. Слишком неправда заведение рассуждение мрачно опасность тысяча. Дремать зеленый назначить монета мимо пастух конференция.","estimatedTime":"9 weeks","previewFileId":"9da5442e-bfbe-4a98-9bfa-d0806ccf8e9a","createdByUserId":"a36dbb2b-37a8-44e3-8b7b-636d30ac86a7"}'

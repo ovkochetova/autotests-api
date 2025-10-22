@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjExOjExLjE5ODc4MiIsInVzZXJfaWQiOiJhYTQ4YTkzNC1lZmYzLTQ5OTktOWVlMC03NTE2MWZmOWQ2YTMifQ.V2UFyuD5YElFmF3H0ABqN027-dC7yKSyTgMLGWHRGis' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Порядок изображать еврейский солнце.","maxScore":95,"minScore":43,"description":"Поставить отражение чем плавно самостоятельно задержать. При изредка носок рот зеленый.","estimatedTime":"10 weeks","previewFileId":"53641151-ac86-4e52-ad3d-3b6e585a933c","createdByUserId":"aa48a934-eff3-4999-9ee0-75161ff9d6a3"}'

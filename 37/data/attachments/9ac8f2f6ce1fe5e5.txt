@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjExOjEyLjU5MzU0MiIsInVzZXJfaWQiOiJkYjZmMjcwZS0yMTRjLTQ2ZTEtYjViNC05ZWRhMTZkZmNlNTUifQ.DADy4MwtUd3sfdxUoK0NsmvkGtuR6afXxxfjB6enIUQ' \
+  -H 'content-length: 636' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Рота близко о мелочь плавно цель табак пасть.","maxScore":50,"minScore":1,"description":"Порог свежий увеличиваться ведь посвятить картинка. Багровый сутки неправда наслаждение.\nВозмутиться заявление результат торопливый. Ребятишки затянуться столетие опасность непривычный обида.","estimatedTime":"7 weeks","previewFileId":"809ef05c-4227-4f2f-835e-4554ba8f0bc8","createdByUserId":"db6f270e-214c-46e1-b5b4-9eda16dfce55"}'

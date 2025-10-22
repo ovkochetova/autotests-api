@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:20 Check create course response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Миллиард товар нервно затянуться.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 66
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 45
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Освободить даль правление отъезд. Мрачно вздрогнуть засунуть помимо танцевать точно команда следовательно. За естественный освобождение.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'preview_file_id' equals to 119a35f6-f88d-45da-a8b6-514006433c93
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'created_by_user_id' equals to 151498fa-e4fa-414c-83a1-5db76c03058a
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

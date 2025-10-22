@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjExOjExLjc1NjIzMSIsInVzZXJfaWQiOiI3YjU0N2M0Ny0zNjg4LTRlZWYtOTdlZS0xMDhiNDk2MDcwYmUifQ.UrNwEm1bKFvz0XB7HRWRuuseZY3pP2m-5APdjETx2Mg' \
+  -H 'content-length: 598' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Одиннадцать торопливый багровый цель сохранять костер.","maxScore":78,"minScore":24,"description":"Отдел прошептать разводить выраженный постоянный.\nПриличный покидать зима коммунизм неожиданно чувство. Нервно поезд юный возможно наступать потрясти ленинград.","estimatedTime":"7 weeks","previewFileId":"164df221-783b-4faa-8d46-7f83e821c288","createdByUserId":"7b547c47-3688-4eef-97ee-108b496070be"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjExOjExLjE5ODc4MiIsInVzZXJfaWQiOiJhYTQ4YTkzNC1lZmYzLTQ5OTktOWVlMC03NTE2MWZmOWQ2YTMifQ.V2UFyuD5YElFmF3H0ABqN027-dC7yKSyTgMLGWHRGis' \
+  -H 'content-length: 462' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Естественный уничтожение трясти низкий хотеть.","description":"Добиться спешить лететь порт инструкция рабочий. Руководитель боец услать. Фонарик сынок пища поезд важный зарплата отдел.","courseId":"9157fdfe-f03b-4c0f-b50d-22dc707f75c2","maxScore":91,"minScore":28,"orderIndex":90,"estimatedTime":"9 weeks"}'

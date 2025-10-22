@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjU4OjQxLjI2Njk5NSIsInVzZXJfaWQiOiJjNWRhNzYxNi0wNDhlLTRjYWItOGEzOS0zNzZiMmQ4ZDUzNWYifQ.ooE3AFYeXOokfrflm5XDUuvRaDK5SklBqfgOQo-i2Hk' \
+  -H 'content-length: 489' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Даль настать развернуться отражение войти.","maxScore":87,"minScore":18,"description":"Еврейский хозяйка изучить изредка увеличиваться невыносимый новый. Куча оборот вскинуть рис приличный. А вряд степь.","estimatedTime":"6 weeks","previewFileId":"7ab41f9e-a0b6-4841-9bd2-7eb24b31469d","createdByUserId":"c5da7616-048e-4cab-8a39-376b2d8d535f"}'

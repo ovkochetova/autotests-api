@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjU4OjM5LjE5MTI2NiIsInVzZXJfaWQiOiJmMTJjYmZjNy1jMTRlLTQ5NmItOWE2OC1jOWEyN2M1ODRmZjQifQ.iV3bDIWEFxJDAGMjSSRDxKRl281IBXtga2mvjpscnE4' \
+  -H 'content-length: 621' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Выражение тяжелый бетонный доставать появление.","maxScore":88,"minScore":29,"description":"Редактор тяжелый цель рассуждение мгновение да. Домашний командование палата анализ упорно услать набор. Предоставить спешить горький фонарик. Основание задрать упорно число висеть.","estimatedTime":"9 weeks","previewFileId":"008fc246-0ac8-410f-bdf2-eaac4ceac839","createdByUserId":"f12cbfc7-c14e-496b-9a68-c9a27c584ff4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjU4OjQzLjI2MjAzNyIsInVzZXJfaWQiOiJiMjYxNDNmYi04NTNlLTQxMTgtOTNlYS1lZDIwZGQ1NjNhZTkifQ.Q9Z2vz8G0SGCZEmXJR4_StccIsRu7q1XL5g5qPn8ssw' \
+  -H 'content-length: 555' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Грустный нервно о отдел.","maxScore":72,"minScore":2,"description":"Необычный инвалид аж. Бак механический падать приличный.\nУказанный деловой функция князь пасть иной зима. Направо каюта разнообразный покидать избегать изба расстройство.","estimatedTime":"8 weeks","previewFileId":"57a14506-0fd0-4dcf-bb97-8217db169fd7","createdByUserId":"b26143fb-853e-4118-93ea-ed20dd563ae9"}'

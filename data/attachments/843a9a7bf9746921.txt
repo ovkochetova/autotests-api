@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjU4OjM4LjYyNzA5NSIsInVzZXJfaWQiOiIwNzk1MmQ2Mi1jYzQ1LTQzYTQtYjk0Yy0xZTA0MDBiNGQ4ZjgifQ.6A5WD0e6EeiLoTAv-xTnQBanx3sMy-lcD6cs4TwFcPw' \
+  -H 'content-length: 513' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Покидать легко вскакивать покидать оставить.","maxScore":96,"minScore":15,"description":"Пол правление дьявол заработать. Встать появление набор страсть невозможно. Торговля слать витрина ремень рис точно еврейский.","estimatedTime":"10 weeks","previewFileId":"63986374-5dee-4b22-a5c8-64580e433abf","createdByUserId":"07952d62-cc45-43a4-b94c-1e0400b4d8f8"}'

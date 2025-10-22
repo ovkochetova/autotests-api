@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjU4OjQwLjM2Njc3NiIsInVzZXJfaWQiOiJlMDQ2MjI0YS05NjYzLTQwYzktYWYyMC05OGRiZTI3YTFkNTYifQ.MoNow6O8R6b7Nm3e3J4Ks0q6TwmdOeo49h5r3URaCOU' \
+  -H 'content-length: 537' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Дальний степь неудобно бегать господь магазин кпсс.","description":"Факультет оборот пропасть строительство сынок. Лапа похороны аллея неправда манера. Умолять невыносимый порода наткнуться ручей предоставить художественный.","courseId":"b4578e0f-48cb-4f77-b0d6-acae212a101a","maxScore":81,"minScore":17,"orderIndex":33,"estimatedTime":"5 weeks"}'

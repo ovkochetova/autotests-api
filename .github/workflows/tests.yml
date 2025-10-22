@@ -95,7 +95,7 @@ jobs:
 
       # Validating artifacts
       - name: List report contents
-        run: ls -la allure-report/
+        run: ls -la ./allure-report/
 
       # 2. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages

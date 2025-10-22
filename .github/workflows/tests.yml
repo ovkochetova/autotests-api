@@ -58,6 +58,7 @@ jobs:
 
       # 10. Сохранение отчета
       - name: Uploading test results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: allure-results
@@ -65,6 +66,7 @@ jobs:
           retention-days: 1
 
   publish-report:
+    if: always()
     needs: run-tests
     runs-on: ubuntu-latest
 
@@ -76,6 +78,12 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
+      # 11. Загрузка отчета
+      - name: Downloading test results
+        uses: actions/download-artifact@v5
+        with:
+          name: allure-results
+
       # 8. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
@@ -84,12 +92,6 @@ jobs:
         with:
           ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
           path: gh-pages  # Указываем путь для сохранения отчётов
-
-      # 11. Загрузка отчета
-      - name: Downloading test results
-        uses: actions/download-artifact@v5
-        with:
-          name: allure-results
 
       # 9. Шаг для генерации и  отображения отчёта Allure
       - name: Generates Allure Report with history

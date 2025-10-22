@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:20 Check create course response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Свежий торопливый неправда наслаждение миф выражаться.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 89
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 36
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Командующий кпсс зачем зарплата роскошный материя. Разуметься плод бровь протягивать одиннадцать манера.
+Сустав солнце спичка.
+Лететь славный спешить.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'preview_file_id' equals to 2824a86d-7cc3-4563-9d47-5e0509ae17ce
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'created_by_user_id' equals to ff931f3a-bd85-452d-88a2-cd61a0f33a8b
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

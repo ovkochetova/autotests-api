@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjAxOjQxLjc5ODUxMSIsInVzZXJfaWQiOiJiODgyZTRmNi1kNzA1LTRhZGQtYTRlOC01NzFhNzM5ZmJjNjUifQ.5t-WnEjTcnS4Sy1AsDSMETfPUWJo1mCQwY84lesI1Yg' \
+  -H 'content-length: 483' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Очко освободить затянуться.","maxScore":63,"minScore":16,"description":"Столетие жить куча головка зарплата ход помимо новый.\nСынок дыхание горький житель командир зима металл. Близко сохранять ягода.","estimatedTime":"3 weeks","previewFileId":"0cd76987-de2e-4339-a78d-33207bc1adb4","createdByUserId":"b882e4f6-d705-4add-a4e8-571a739fbc65"}'

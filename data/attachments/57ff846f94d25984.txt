@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjAxOjM3Ljc0MDExNCIsInVzZXJfaWQiOiJlNDIwOWZkMi1hYWY1LTQwMjEtYjEyOC1lZTczZDgwMDA3MmQifQ.N_le6aosl2cEQT99eKvootQ976VZ20Ln-UPxGgwc_VQ' \
+  -H 'content-length: 496' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Тревога посидеть славный мягкий равнодушный около.","maxScore":60,"minScore":2,"description":"Строительство уронить предоставить ягода рот ленинград другой. Аж князь вариант прежний непривычный сверкающий.","estimatedTime":"1 weeks","previewFileId":"7b1e4989-44cd-4627-b069-adf49b16212b","createdByUserId":"e4209fd2-aaf5-4021-b128-ee73d800072d"}'

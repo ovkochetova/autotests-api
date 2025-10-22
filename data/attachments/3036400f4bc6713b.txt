@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjAxOjM4LjU3NzYyNiIsInVzZXJfaWQiOiJhZjI0ZjQyMy1kOTYzLTQ4YmMtYThmNC0yYWFkYTYxODljNGEifQ.7mSjtkrExTImg0rI6Z753hrEQDelfIuI6xccZcjAPqE' \
+  -H 'content-length: 525' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Миг умолять вздрогнуть деньги спасть функция.","maxScore":85,"minScore":25,"description":"Отражение вообще доставать назначить назначить дурацкий кпсс выражение. Привлекать что боец печатать естественный головка школьный.","estimatedTime":"4 weeks","previewFileId":"1ed6db2e-9c82-416f-a1d7-75e0cfb7cf20","createdByUserId":"af24f423-d963-48bc-a8f4-2aada6189c4a"}'

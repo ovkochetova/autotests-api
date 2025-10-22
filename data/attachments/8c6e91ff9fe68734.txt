@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/533231fc-f543-45c9-b0c4-568a19f0c294' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjAxOjQwLjk2MTU0NSIsInVzZXJfaWQiOiI0NmIyOTMyZi1kZTFiLTRiZmUtOGM3ZS03OTUwOWNhMDk4NGEifQ.cZoTFKg139JnO3r_jbgWkdHENI6VvtlwxJP3DP-VM08' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Труп вздрогнуть уронить избегать блин сынок.","maxScore":52,"minScore":23,"description":"Мягкий хозяйка витрина лететь. Хозяйка мелочь вскинуть шлем прежде.\nОставить порода запеть наслаждение актриса. Магазин ломать пастух кольцо.","estimatedTime":"8 weeks"}'

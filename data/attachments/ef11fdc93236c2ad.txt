@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjMzOjU2LjcyMTc4OSIsInVzZXJfaWQiOiIzYTQyN2QwMC0zZTI5LTRmZGQtYWIyYi1iOGFhMTliYjEyZDgifQ.-MjMct76dilKBEz0NXF05cE2FXNjIIX_ktcWP0r1I-I' \
+  -H 'content-length: 577' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Вряд приятель болото следовательно.","maxScore":64,"minScore":9,"description":"Кидать решетка неправда коробка. Смеяться уронить монета зачем ночь прошептать тюрьма вздрагивать.\nУвеличиваться юный юный недостаток. Эпоха демократия плод слать видимо.","estimatedTime":"7 weeks","previewFileId":"6fb696c1-9f6e-4ef3-a595-07518a097f7d","createdByUserId":"3a427d00-3e29-4fdd-ab2b-b8aa19bb12d8"}'

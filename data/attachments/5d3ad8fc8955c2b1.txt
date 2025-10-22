@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjMzOjU1Ljg4Mjk4MyIsInVzZXJfaWQiOiIwM2I0ZTIyMi04OTMyLTRmNWUtYmU4Yi1lYjAyMmE1YTI5ZWIifQ.c0LtW_MoBkVD8w0Lv7Hg_tC_COIOzWKMgJ3faheg0Ec' \
+  -H 'content-length: 531' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Мягкий добиться оборот ремень сходить секунда вытаскивать трясти.","maxScore":77,"minScore":8,"description":"Торговля мгновение цель выбирать гулять тута. Товар спасть команда функция применяться кузнец правильный человечек.","estimatedTime":"9 weeks","previewFileId":"d11f8326-ec2a-4c9a-bc73-29d547bdac57","createdByUserId":"03b4e222-8932-4f5e-be8b-eb022a5a29eb"}'

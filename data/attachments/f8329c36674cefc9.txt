@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/25047fad-f95a-4513-94c2-982064cb5609' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjMzOjU1Ljg4Mjk4MyIsInVzZXJfaWQiOiIwM2I0ZTIyMi04OTMyLTRmNWUtYmU4Yi1lYjAyMmE1YTI5ZWIifQ.c0LtW_MoBkVD8w0Lv7Hg_tC_COIOzWKMgJ3faheg0Ec' \
+  -H 'content-length: 559' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Жестокий ночь ведь задержать решетка доставать упорно передо.","maxScore":98,"minScore":41,"description":"Сохранять бабочка привлекать. Нажать приятель смелый мусор багровый полностью.\nПравильный лететь ныне носок сопровождаться куча похороны. Ведь выбирать жидкий темнеть. Прежде падать непривычный.","estimatedTime":"2 weeks"}'

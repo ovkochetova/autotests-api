@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to  http://localhost:8000/api/v1/courses?userId=91b9b2e5-0f20-4ece-9f34-2e48acac14dc
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses?userId=91b9b2e5-0f20-4ece-9f34-2e48acac14dc
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:53 Check get course response
+INFO     BASE_ASSERTIONS:base.py:44 Check that 'courses' length equals to [CreateCourseResponseSchema(course=CourseSchema(id='b9eecda9-1996-42b7-9c97-05a44d6cfff5', title='Горький добиться июнь ныне.', max_score=56, min_score=20, description='Вытаскивать столетие демократия покинуть. Ход факультет решение ученый.\nВозмутиться находить заведение неудобно иной смелый пастух. Проход изменение заведение висеть настать да избегать.', estimated_time='3 weeks', preview_file=FileSchema(id='38267329-bf38-4d37-971b-adbef1550353', url=HttpUrl('http://localhost:8000/static/tests/55ad0b9f-2077-4545-a4c0-4c74c7ae1e7c.png'), filename='55ad0b9f-2077-4545-a4c0-4c74c7ae1e7c.png', directory='tests'), created_by_user=UserSchema(id='91b9b2e5-0f20-4ece-9f34-2e48acac14dc', email='egorrjabov@example.net', first_name='Устин', last_name='Мясников', middle_name='Авдей')))]
+INFO     COURSE_ASSERTIONS:course.py:40 Check course
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'id' equals to b9eecda9-1996-42b7-9c97-05a44d6cfff5
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Горький добиться июнь ныне.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 56
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 20
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Вытаскивать столетие демократия покинуть. Ход факультет решение ученый.
+Возмутиться находить заведение неудобно иной смелый пастух. Проход изменение заведение висеть настать да избегать.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 3 weeks
+INFO     FILE_ASSERTIONS:files.py:29 Check file
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'id' equals to 38267329-bf38-4d37-971b-adbef1550353
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'url' equals to http://localhost:8000/static/tests/55ad0b9f-2077-4545-a4c0-4c74c7ae1e7c.png
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'filename' equals to 55ad0b9f-2077-4545-a4c0-4c74c7ae1e7c.png
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'directory' equals to tests
+INFO     USER_ASSERTIONS:users.py:19 Check user
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'id' equals to 91b9b2e5-0f20-4ece-9f34-2e48acac14dc
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'email' equals to egorrjabov@example.net
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'first_name' equals to Устин
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'last_name' equals to Мясников
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'middle_name' equals to Авдей
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

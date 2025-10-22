@@ -81,12 +81,6 @@ jobs:
           path: allure-results
           retention-days: 1
 
-
-  publish-report:
-    needs: run-tests
-    runs-on: ubuntu-latest
-
-    steps:
       # 11. Загрузка отчета
       - name: Downloading test results
         uses: actions/download-artifact@v5

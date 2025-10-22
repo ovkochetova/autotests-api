@@ -60,7 +60,7 @@ jobs:
       - name: Uploading test results
         uses: actions/upload-artifact@v4
         with:
-          name: artifact
+          name: allure-results
           path: allure-results
           retention-days: 1
 
@@ -89,7 +89,7 @@ jobs:
       - name: Downloading test results
         uses: actions/download-artifact@v5
         with:
-          name: artifact
+          name: allure-results
 
       # 9. Шаг для генерации и  отображения отчёта Allure
       - name: Generates Allure Report with history

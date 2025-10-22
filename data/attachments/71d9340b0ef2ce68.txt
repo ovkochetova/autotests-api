@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2a697533-0f3f-4cc1-b566-7a2ce37a715d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjA2OjU0LjgzNjA2NiIsInVzZXJfaWQiOiI5MTVkZWU2My03NjA1LTQ0NGQtOGNlMy0zZjc0NWY3YjFlY2MifQ.BwRjNKtklkssVWX4fnZ4JNkZ5Mas7Vhk1UiJY8OizLY' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Деловой вздрогнуть заработать потрясти.","maxScore":52,"minScore":43,"description":"Через развитый что легко. Печатать цель пропасть естественный уронить ботинок. Заработать расстройство чем полевой трубка спешить сутки.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjA2OjUxLjYzODg5NSIsInVzZXJfaWQiOiIwNjEyN2NjOS1lM2RkLTQwNjQtYTViNy0xN2NlMjNiMTJkZGUifQ.x1e75K2MJuI9AYw5NqGVfXWt-aGhCFqbYfy_OVOeR_s' \
+  -H 'content-length: 501' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Штаб протягивать поставить аллея порт трубка провинция.","maxScore":66,"minScore":48,"description":"Радость экзамен выдержать ручей посидеть плясать поставить скрытый. Домашний более правильный палец вариант.","estimatedTime":"10 weeks","previewFileId":"c09ba435-3be0-40f8-bd8c-5eed570d6552","createdByUserId":"06127cc9-e3dd-4064-a5b7-17ce23b12dde"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjA2OjUxLjM1MTk3NSIsInVzZXJfaWQiOiIyZWVkMTY2NC1lZmVjLTQ1M2MtYTZjMy1iNmQzMmJkOTdmNTYifQ.aQ2KGksLfh872Se5hsnMNNYHYR0IiwgILBvJ9VM2TJo' \
+  -H 'content-length: 569' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Волк при степь терапия печатать поставить что.","maxScore":68,"minScore":12,"description":"Деловой князь один господь пробовать смеяться соответствие. Прежний отъезд лиловый иной экзамен. Князь командующий мучительно четко собеседник кпсс вперед.","estimatedTime":"9 weeks","previewFileId":"50681a9c-2538-4b6d-ae1a-7aac035e8108","createdByUserId":"2eed1664-efec-453c-a6c3-b6d32bd97f56"}'

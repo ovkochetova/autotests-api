@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to  http://localhost:8000/api/v1/exercises?courseId=374aaaa1-0f99-4f83-b32b-addf1e7411c5
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises?courseId=374aaaa1-0f99-4f83-b32b-addf1e7411c5
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:111 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:44 Check that 'exercises' length equals to [CreateExerciseResponseSchema(exercise=ExerciseSchema(id='fbe3d323-b868-45b8-80a7-f0cb96bd27d8', title='Пастух заложить ложиться ботинок.', description='Понятный заложить набор затянуться вздрогнуть появление. Заплакать отдел пастух желание правление похороны. Возбуждение домашний низкий мелькнуть добиться похороны ночь зима.', course_id='374aaaa1-0f99-4f83-b32b-addf1e7411c5', max_score=72, min_score=22, order_index=74, estimated_time='7 weeks'))]
+INFO     EXERCISE_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Пастух заложить ложиться ботинок.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'course_id' equals to 374aaaa1-0f99-4f83-b32b-addf1e7411c5
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 72
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 22
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 74
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Понятный заложить набор затянуться вздрогнуть появление. Заплакать отдел пастух желание правление похороны. Возбуждение домашний низкий мелькнуть добиться похороны ночь зима.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

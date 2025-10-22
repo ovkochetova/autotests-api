@@ -1,0 +1,17 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 422 response to  Unprocessable Content from http://localhost:8000/api/v1/files
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 422
+INFO     FILE_ASSERTIONS:files.py:48 Check create file with empty filename response
+INFO     ERRORS_ASSERTIONS:errors.py:19 Check validation error response
+INFO     BASE_ASSERTIONS:base.py:44 Check that 'details' length equals to [ValidationErrorSchema(type='string_too_short', input='', context={'min_length': 1}, message='String should have at least 1 character', location=['body', 'filename'])]
+INFO     ERRORS_ASSERTIONS:errors.py:10 Check validation error
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'type' equals to string_too_short
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'input' equals to 
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'context' equals to {'min_length': 1}
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'message' equals to String should have at least 1 character
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'location' equals to ['body', 'filename']
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

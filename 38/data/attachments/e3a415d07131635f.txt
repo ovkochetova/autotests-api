@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjMwOjIzLjI2MTE1MSIsInVzZXJfaWQiOiI0MGQwN2I2Mi0zYzZkLTQzZGUtOWI0Yy02MmQwYjYyMjI3OWEifQ.st_31bh8SjrygobWpac0FMeWcIyrYtTGUTKvQ8WW7H0' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Виднеться теория пропадать достоинство да.","maxScore":74,"minScore":13,"description":"Прежний передо вытаскивать. Миф совещание июнь наткнуться эпоха заложить при пасть.","estimatedTime":"2 weeks","previewFileId":"5e8d4b16-3d6b-4704-be7c-de34c869cf71","createdByUserId":"40d07b62-3c6d-43de-9b4c-62d0b622279a"}'

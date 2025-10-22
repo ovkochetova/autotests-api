@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to  http://localhost:8000/api/v1/exercises/9a227432-2cd1-4870-abbd-38f897c3cf69
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises/9a227432-2cd1-4870-abbd-38f897c3cf69
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:62 Check get exercise response
+INFO     EXERCISE_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Ботинок бабочка витрина вообще ребятишки изредка торговля.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'course_id' equals to 571e1ed5-3e8b-48f4-85fb-9fcc3aeb6c47
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 63
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 11
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 25
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Темнеть налево термин важный заплакать отражение рабочий. Сверкать плод коллектив счастье вперед. Роскошный четыре научить правление валюта привлекать. Совещание витрина пересечь кольцо.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

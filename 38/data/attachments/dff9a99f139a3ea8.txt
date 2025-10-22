@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/e6c6b89b-d46a-49c3-b0ec-a460829682e2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjMwOjIwLjAxNDUwMiIsInVzZXJfaWQiOiIxNzlkMmJjMy03ZTAxLTQ4NDItYjRmOS01YTRmNjE0ODFlMWMifQ.qNmVrmc-Uw6OrpM4VASQSpprbM0APTZ3M12u0zmFHoc' \
+  -H 'content-length: 521' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Песенка головка возмутиться аж.","description":"Полностью способ сынок деловой пастух триста скользить. Функция очутиться блин. Еврейский уронить дыхание господь ленинград мусор видимо. Торопливый человечек социалистический непривычный дьявол.","maxScore":85,"minScore":31,"orderIndex":8,"estimatedTime":"6 weeks"}'

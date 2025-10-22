@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjMwOjIxLjU2MzMyMiIsInVzZXJfaWQiOiJiOTMxNGQ1Zi05YTdhLTQxYjgtOGEyNy0yYWNiNDY2ODllY2YifQ.XDCfAEmudZ4dK114aJkDM-TLWUMM7zUEFwZmbNe_568' \
+  -H 'content-length: 559' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Смелый художественный изредка казнь заплакать кольцо.","maxScore":75,"minScore":12,"description":"Металл бегать плод. Девка одиннадцать вздрогнуть виднеться металл. Конструкция очутиться единый провал сверкающий. Монета около войти витрина.","estimatedTime":"8 weeks","previewFileId":"f5c39db0-0c02-44ee-9b8c-bee35b702cf0","createdByUserId":"b9314d5f-9a7a-41b8-8a27-2acb46689ecf"}'

@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to  http://localhost:8000/api/v1/exercises/e6c6b89b-d46a-49c3-b0ec-a460829682e2
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises/e6c6b89b-d46a-49c3-b0ec-a460829682e2
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:76 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Песенка головка возмутиться аж.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 85
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 31
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 8
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Полностью способ сынок деловой пастух триста скользить. Функция очутиться блин. Еврейский уронить дыхание господь ленинград мусор видимо. Торопливый человечек социалистический непривычный дьявол.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Полностью способ сынок деловой пастух триста скользить. Функция очутиться блин. Еврейский уронить дыхание господь ленинград мусор видимо. Торопливый человечек социалистический непривычный дьявол.
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

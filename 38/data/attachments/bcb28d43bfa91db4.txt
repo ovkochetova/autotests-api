@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjMwOjIyLjcxMjk0NyIsInVzZXJfaWQiOiI0YjhiYzQ4OC0zOWM3LTRhYjctODY3My02ZWVjN2JkZDM0MDQifQ.KFRFvL489Bf2uZRcOeojxsqbDLh45_aCfOzmf7TemyY' \
+  -H 'content-length: 605' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ботинок бабочка витрина вообще ребятишки изредка торговля.","description":"Темнеть налево термин важный заплакать отражение рабочий. Сверкать плод коллектив счастье вперед. Роскошный четыре научить правление валюта привлекать. Совещание витрина пересечь кольцо.","courseId":"571e1ed5-3e8b-48f4-85fb-9fcc3aeb6c47","maxScore":63,"minScore":11,"orderIndex":25,"estimatedTime":"7 weeks"}'

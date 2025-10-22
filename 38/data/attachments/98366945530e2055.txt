@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjMwOjIyLjk5MTc2OSIsInVzZXJfaWQiOiI4ZWFiNTFlNC04Yjc3LTRjMGItYmEzNC1hZTMwMzRlMmI2OTEifQ.Z8Vp67Oqa9C-GCsMPEx_D_AWxH_csZV0h__JEOH8Sek' \
+  -H 'content-length: 594' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Правый легко поколение.","maxScore":55,"minScore":12,"description":"Неправда при пища упорно. Приходить тревога следовательно прежде мелочь.\nПравление магазин райком обида секунда грудь. Актриса еврейский четко пастух болото наслаждение приятель вытаскивать.","estimatedTime":"10 weeks","previewFileId":"ba43d71b-5f25-4491-a482-70b3846fefe2","createdByUserId":"8eab51e4-8b77-4c0b-ba34-ae3034e2b691"}'

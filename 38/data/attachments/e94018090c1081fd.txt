@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjMwOjIwLjI4MzM5MiIsInVzZXJfaWQiOiI5MzAxNzM2MC02ZmJkLTQwZDktYWRhYS1jMGY0MTM3ZTUyNjAifQ.fzwUNxpaJFxJLfj8pjTPIeRWTY3K7PP6USAsiFtW3CE' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пища провал ребятишки лапа вчера цепочка мелькнуть роса.","maxScore":77,"minScore":5,"description":"Находить юный академик рот полностью сбросить. Госпожа грустный зачем юный.","estimatedTime":"8 weeks","previewFileId":"05a9c0db-c10e-4152-81f8-7fa7a9a78dec","createdByUserId":"93017360-6fbd-40d9-adaa-c0f4137e5260"}'

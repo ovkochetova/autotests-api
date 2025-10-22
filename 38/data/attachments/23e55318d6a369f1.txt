@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:20 Check create course response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Смелый художественный изредка казнь заплакать кольцо.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 75
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 12
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Металл бегать плод. Девка одиннадцать вздрогнуть виднеться металл. Конструкция очутиться единый провал сверкающий. Монета около войти витрина.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'preview_file_id' equals to f5c39db0-0c02-44ee-9b8c-bee35b702cf0
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'created_by_user_id' equals to b9314d5f-9a7a-41b8-8a27-2acb46689ecf
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

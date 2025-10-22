@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDE1OjMwOjIwLjU2NTU1NSIsInVzZXJfaWQiOiI4ZmNlMDRhYS1iMGEyLTQwMzQtODg3NS05MjNiNDc1ZjUwYWMifQ.skysqY-dSxhEf8VRUMWFWdCKyQRRurOw1vQruT_3Njs' \
+  -H 'content-length: 610' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Очередной эффект тяжелый народ металл.","maxScore":83,"minScore":22,"description":"Смертельный фонарик анализ постоянный смелый основание сутки потянуться. Рабочий протягивать строительство опасность приятель отъезд более. Интеллектуальный хозяйка банда казнь отдел.","estimatedTime":"7 weeks","previewFileId":"6ac196f5-a519-468f-b362-e5c397917db3","createdByUserId":"8fce04aa-b0a2-4034-8875-923b475f50ac"}'

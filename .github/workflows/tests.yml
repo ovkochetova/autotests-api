@@ -78,7 +78,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: artifact
-          path: allure-results
+          path: |
+            allure-report
+            allure-history
           retention-days: 1
 
   publish-report:
@@ -91,7 +93,6 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           name: artifact
-          path: allure-results
 
       # 12. Отображение структкры файлов
       - name: Display structure of downloaded files

@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to  http://localhost:8000/api/v1/exercises/fa34dcfd-d55c-43af-bf44-61fd4eeebd81
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises/fa34dcfd-d55c-43af-bf44-61fd4eeebd81
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:62 Check get exercise response
+INFO     EXERCISE_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Невыносимый доставать волк степь.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'course_id' equals to 9bdc9454-a7e9-40ae-bbd5-b11b5747e6d2
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 76
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 31
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 31
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Возможно посвятить художественный пропаганда бок возбуждение. При свежий отдел дремать провал коробка.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

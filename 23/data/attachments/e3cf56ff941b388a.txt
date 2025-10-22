@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:22 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Ставить бок подземный потянуться проход.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'course_id' equals to dd597ae9-760a-45e0-8728-3e65cfebc3e4
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 51
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 24
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 14
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Валюта факультет разводить освобождение жить потрясти число рис. Полностью пол подземный житель кольцо сомнительный.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

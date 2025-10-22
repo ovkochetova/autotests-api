@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2dee8eb6-c689-4c35-97f4-903b9a6092eb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjE5OjMyLjQyNjI2OSIsInVzZXJfaWQiOiJiZTkxMzU1YS0xNGE1LTQxMmItYWQ3Yy01MGVkMzk0MmZiODYifQ.H-KvVzUUR3ab6OP3l8SOAat8ffvTW7Cd_7_wLo13fU4' \
+  -H 'content-length: 455' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Мусор витрина применяться поздравлять.","maxScore":93,"minScore":3,"description":"Юный инструкция мальчишка пропасть поговорить медицина спасть. Невозможно конференция цепочка мягкий. Цвет научить вздрогнуть академик господь выражение висеть.","estimatedTime":"10 weeks"}'

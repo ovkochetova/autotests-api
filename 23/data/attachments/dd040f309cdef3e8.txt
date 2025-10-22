@@ -1,0 +1,12 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     FILE_ASSERTIONS:files.py:20 Check create file response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'url' equals to http://localhost:8000/static/tests/a6b2580c-21b6-47c8-8009-097f2d16d04a.png
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'filename' equals to a6b2580c-21b6-47c8-8009-097f2d16d04a.png
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'directory' equals to tests
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

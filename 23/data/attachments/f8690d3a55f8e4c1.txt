@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to  http://localhost:8000/api/v1/exercises?courseId=e5c39d02-b768-49c9-aac0-661799eabbd0
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises?courseId=e5c39d02-b768-49c9-aac0-661799eabbd0
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:111 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:44 Check that 'exercises' length equals to [CreateExerciseResponseSchema(exercise=ExerciseSchema(id='96011f99-ae6b-4a3d-a307-39fab6d400dc', title='Блин манера девка расстегнуть.', description='Сомнительный анализ четыре мера еврейский провинция космос. Банда сынок миллиард похороны горький плавно термин. Рассуждение вздрагивать ответить дошлый.', course_id='e5c39d02-b768-49c9-aac0-661799eabbd0', max_score=67, min_score=26, order_index=59, estimated_time='10 weeks'))]
+INFO     EXERCISE_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Блин манера девка расстегнуть.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'course_id' equals to e5c39d02-b768-49c9-aac0-661799eabbd0
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 67
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 26
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 59
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Сомнительный анализ четыре мера еврейский провинция космос. Банда сынок миллиард похороны горький плавно термин. Рассуждение вздрагивать ответить дошлый.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

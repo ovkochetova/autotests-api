@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjE5OjMwLjE4NDIyMiIsInVzZXJfaWQiOiIyMDZjNDQ5OS01OTQ3LTQxOWItOGYyZS03N2MwM2FkYTZiN2IifQ.BIYXGUA5E9uh5I4QdVrkpIF7gIM15NDvwgM5oVnEbsA' \
+  -H 'content-length: 617' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Полюбить конференция зеленый исполнять интернет.","maxScore":65,"minScore":27,"description":"Около приятель невыносимый мгновение интеллектуальный. Песня фонарик передо опасность механический. Функция материя тюрьма правление.\nПробовать зарплата труп славный приходить.","estimatedTime":"9 weeks","previewFileId":"ae5e14b0-657c-4cfa-b603-a1fc7faccf84","createdByUserId":"206c4499-5947-419b-8f2e-77c03ada6b7b"}'

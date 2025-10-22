@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjE5OjI5LjIwODQzNSIsInVzZXJfaWQiOiJlZWY2MjE5NC0xMjhiLTRhZTMtOGM0MS01YTA0NWY4N2M1ZTgifQ.JAIKn3Jn4tbz75rDLd5Zi0k992fD-cBRQSw8gL-_tH8' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ставить бок подземный потянуться проход.","description":"Валюта факультет разводить освобождение жить потрясти число рис. Полностью пол подземный житель кольцо сомнительный.","courseId":"dd597ae9-760a-45e0-8728-3e65cfebc3e4","maxScore":51,"minScore":24,"orderIndex":14,"estimatedTime":"6 weeks"}'

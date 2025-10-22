@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjE5OjI5LjIwODQzNSIsInVzZXJfaWQiOiJlZWY2MjE5NC0xMjhiLTRhZTMtOGM0MS01YTA0NWY4N2M1ZTgifQ.JAIKn3Jn4tbz75rDLd5Zi0k992fD-cBRQSw8gL-_tH8' \
+  -H 'content-length: 578' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Расстегнуть горький упорно.","maxScore":89,"minScore":7,"description":"Зима армейский горький труп команда анализ. Полоска научить разнообразный.\nСпасть рота пятеро прощение. Нож ведь прошептать житель. О прелесть советовать магазин избегать о вперед.","estimatedTime":"2 weeks","previewFileId":"d285252c-93bf-4b78-9e46-9f277fe8ae75","createdByUserId":"eef62194-128b-4ae3-8c41-5a045f87c5e8"}'

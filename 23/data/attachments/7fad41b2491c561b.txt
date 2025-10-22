@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjE5OjI4LjkyMzcxNyIsInVzZXJfaWQiOiI4Y2FlODI4OC1mZWE5LTQwYjQtODMxMC05NWJjYjM2ZGZjZDcifQ.qSnegPVvUbmZjHnq4wZNJEF0JpvbOpOzn_EIzkHdt4Q' \
+  -H 'content-length: 621' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Рот коробка решетка редактор.","maxScore":82,"minScore":10,"description":"Спорт ответить способ прошептать терапия призыв неправда. Господь табак умолять тяжелый счастье светило войти.\nБагровый что ныне интернет.\nЧувство запеть посидеть изучить.\nДемократия видимо неправда.","estimatedTime":"3 weeks","previewFileId":"087c45c6-64cf-4610-a454-189b4c850ac4","createdByUserId":"8cae8288-fea9-40b4-8310-95bcb36dfcd7"}'

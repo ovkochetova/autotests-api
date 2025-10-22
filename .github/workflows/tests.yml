@@ -17,7 +17,7 @@ jobs:
 
     steps:
       # 1. Шаг, который будет клонировать ваш репозиторий на машину GitHub Actions
-      - name: Check out  repository
+      - name: Check out repository
         uses: actions/checkout@v4  # Используем GitHub Action для клонирования репозитория
 
       # 2. Шаг для установки Python на виртуальной машине
@@ -56,29 +56,6 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses=5  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
-      # 8. Шаг для получения истории отчётов Allure, если она существует
-      - name: Get Allure history
-        uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
-        if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
-        continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
-        with:
-          ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
-          path: gh-pages  # Указываем путь для сохранения отчётов
-
-  publish-report:
-    needs: run-tests
-    runs-on: ubuntu-latest
-
-    steps:
-
-      # 9. Шаг для генерации и  отображения отчёта Allure
-      - name: Generates Allure Report with history
-        uses: simple-elf/allure-report-action@v1.12  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
-        if: always()  # Этот шаг тоже всегда выполняется
-        with:
-          allure_results: allure-results  # Указываем каталог с результатами тестов
-          allure_history: allure-history  # Указываем каталог для истории отчётов Allure
-
       # 10. Сохранение отчета
       - name: Uploading test results
         uses: actions/upload-artifact@v4
@@ -89,11 +66,40 @@ jobs:
             allure-report
           retention-days: 1
 
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      # 8. Шаг для получения истории отчётов Allure, если она существует
+      - name: Get Allure history
+        uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
+        if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
+        continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
+        with:
+          ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
+          path: gh-pages  # Указываем путь для сохранения отчётов
+
       # 11. Загрузка отчета
       - name: Downloading test results
         uses: actions/download-artifact@v5
         with:
           name: artifact
+
+      # 9. Шаг для генерации и  отображения отчёта Allure
+      - name: Generates Allure Report with history
+        uses: simple-elf/allure-report-action@v1.12  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
+        if: always()  # Этот шаг тоже всегда выполняется
+        with:
+          allure_results: allure-results  # Указываем каталог с результатами тестов
+          allure_history: allure-history  # Указываем каталог для истории отчётов Allure
 
       # 12. Отображение структкры файлов
       - name: Display structure of downloaded files

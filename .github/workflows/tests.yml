@@ -65,6 +65,12 @@ jobs:
           ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
           path: gh-pages  # Указываем путь для сохранения отчётов
 
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest
+
+    steps:
+
       # 9. Шаг для генерации и  отображения отчёта Allure
       - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.12  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
@@ -78,16 +84,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: artifact
-          path: |
-            allure-report
-            allure-history
+          path: allure-results
           retention-days: 1
 
-  publish-report:
-    needs: run-tests
-    runs-on: ubuntu-latest
-
-    steps:
       # 11. Загрузка отчета
       - name: Downloading test results
         uses: actions/download-artifact@v5

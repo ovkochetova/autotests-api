@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to  http://localhost:8000/api/v1/exercises?courseId=85eff041-257d-4081-b073-9a635d7ff0b5
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises?courseId=85eff041-257d-4081-b073-9a635d7ff0b5
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:111 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:44 Check that 'exercises' length equals to [CreateExerciseResponseSchema(exercise=ExerciseSchema(id='844712e1-276f-4225-82c2-0d9613d39411', title='Написать увеличиваться число деньги.', description='Выкинуть белье пробовать тесно предоставить ремень граница. Палата каюта заплакать построить мягкий равнодушный падаль что.', course_id='85eff041-257d-4081-b073-9a635d7ff0b5', max_score=100, min_score=23, order_index=38, estimated_time='3 weeks'))]
+INFO     EXERCISE_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Написать увеличиваться число деньги.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'course_id' equals to 85eff041-257d-4081-b073-9a635d7ff0b5
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 100
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 23
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 38
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Выкинуть белье пробовать тесно предоставить ремень граница. Палата каюта заплакать построить мягкий равнодушный падаль что.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/47d904e8-60e7-4d84-a048-eba55b7a40d3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjIxOjAyLjY5MDA0MCIsInVzZXJfaWQiOiI3ZjlhMmVhNC1jNGQ4LTRkYjEtODRmZS04NDQ2NDE5NmU0ODkifQ.Q3RGXxkMxJWB4rI4TlDVc3YOROYDG1_s8jrJFgn4z8c' \
+  -H 'content-length: 521' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Июнь мотоцикл школьный зато актриса куча художественный.","maxScore":68,"minScore":14,"description":"Реклама еврейский блин крутой отметить. Счастье процесс дыхание четко.\nНабор наступать чем мягкий рота порода рай. Металл точно парень. Конференция порт витрина возникновение ярко.","estimatedTime":"5 weeks"}'

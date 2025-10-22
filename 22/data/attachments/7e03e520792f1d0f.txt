@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjIwOjU5LjQ3MDk0OSIsInVzZXJfaWQiOiI5MmFjMjhjOS01MzA1LTQ2NTAtOWE2Zi1mYTQxYTU5NTM0MmUifQ.AaobylK3W-Gt6jR_18nFfBjiunpkGlKG2DA_kvZFI_M' \
+  -H 'content-length: 515' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Сустав поколение решетка серьезный самостоятельно полюбить.","maxScore":67,"minScore":2,"description":"Прежде ночь триста пропадать полностью. Решетка миг возмутиться помолчать ночь спорт анализ. Горький манера очко.","estimatedTime":"7 weeks","previewFileId":"7e15bf0c-6a97-4255-b540-dc1ebcc72c56","createdByUserId":"92ac28c9-5305-4650-9a6f-fa41a595342e"}'

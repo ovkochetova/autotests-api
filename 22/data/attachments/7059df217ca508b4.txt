@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjIxOjAyLjY5MDA0MCIsInVzZXJfaWQiOiI3ZjlhMmVhNC1jNGQ4LTRkYjEtODRmZS04NDQ2NDE5NmU0ODkifQ.Q3RGXxkMxJWB4rI4TlDVc3YOROYDG1_s8jrJFgn4z8c' \
+  -H 'content-length: 632' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Нож сверкающий шлем крутой разнообразный изучить карман.","maxScore":56,"minScore":16,"description":"Трубка командир инвалид. Отметить функция господь манера руководитель секунда освободить.\nЗарплата помимо поговорить спорт выраженный ход. Инвалид монета конференция сверкающий.","estimatedTime":"8 weeks","previewFileId":"dcde1dd3-3b5f-4adb-900d-8bbdf703efa2","createdByUserId":"7f9a2ea4-c4d8-4db1-84fe-84464196e489"}'

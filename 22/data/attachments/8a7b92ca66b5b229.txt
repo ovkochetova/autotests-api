@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjIxOjAzLjgzNjg4NyIsInVzZXJfaWQiOiJiNTYwNDA0ZS1iYjUwLTRhYjctOGU4Zi00YTNhYmE0NGEwNTMifQ.qiuTNd9GwgJ3h3bYyC554HjOXeUKs3J9nPd6UfHWcFM' \
+  -H 'content-length: 470' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Дурацкий легко тесно страсть а.","description":"Неожиданно промолчать актриса.\nВыбирать социалистический встать чувство. Материя настать пропаганда. Реклама решетка труп коробка более хлеб.","courseId":"c8d12046-b205-489e-8804-cb4e3e9201de","maxScore":59,"minScore":24,"orderIndex":83,"estimatedTime":"7 weeks"}'

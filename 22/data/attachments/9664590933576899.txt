@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjIxOjAyLjEzODMyMyIsInVzZXJfaWQiOiIyYWI0NmJkMi1kOTM1LTRhMGMtODlhNC02Yzg3ZmJhNWFhYjkifQ.lS8oVpg0Yaus9c06fKnVRQNkwwZ10o8GT5m6Zo2JbZc' \
+  -H 'content-length: 445' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Остановить мрачно назначить витрина.","maxScore":73,"minScore":44,"description":"Сынок миф ночь подробность. Низкий прежний коричневый порядок какой товар. Угроза угол обида ягода.","estimatedTime":"8 weeks","previewFileId":"b22a7113-b62d-464a-80bc-1b7d71814f26","createdByUserId":"2ab46bd2-d935-4a0c-89a4-6c87fba5aab9"}'

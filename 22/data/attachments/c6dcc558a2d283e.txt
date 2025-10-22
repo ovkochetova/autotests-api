@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to  http://localhost:8000/api/v1/courses/47d904e8-60e7-4d84-a048-eba55b7a40d3
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses/47d904e8-60e7-4d84-a048-eba55b7a40d3
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:31 Check update course response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Июнь мотоцикл школьный зато актриса куча художественный.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 68
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 14
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Реклама еврейский блин крутой отметить. Счастье процесс дыхание четко.
+Набор наступать чем мягкий рота порода рай. Металл точно парень. Конференция порт витрина возникновение ярко.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

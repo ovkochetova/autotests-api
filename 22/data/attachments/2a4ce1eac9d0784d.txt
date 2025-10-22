@@ -1,0 +1,23 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to  http://localhost:8000/api/v1/exercises/a6b82c65-5036-433d-a021-d861ccead42a
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises/a6b82c65-5036-433d-a021-d861ccead42a
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:62 Check get exercise response
+INFO     EXERCISE_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Запустить полностью светило выбирать ручей.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'course_id' equals to a83639e5-5083-407a-922c-d15a23804109
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 97
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 39
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 75
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Миг хотеть число премьера инструкция цель спасть. Витрина господь роса темнеть полностью мусор умирать. Крутой бак сынок картинка монета.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:22 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Неожиданно спорт плавно поезд командир наткнуться вперед.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'course_id' equals to b3c797ca-d5d7-4240-8ba3-cd6f55cf2cb7
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 64
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 3
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 46
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Зато сходить грудь.
+Жидкий четко передо слишком. Банк висеть фонарик лететь.
+Близко функция сынок палка приличный табак деловой. Результат палка ученый покинуть непривычный упор выбирать.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

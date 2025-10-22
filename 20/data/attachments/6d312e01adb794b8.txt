@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjA2OjU0LjE5MTU0MyIsInVzZXJfaWQiOiJjNzI2YWRhMy1kOTViLTQ0OGQtODI0MC0zNjdiNTFjMDUwNTEifQ.AYXwJMHPfWMDlIFL7Y64gkJhPF3I3NdIIVCRVEHCaOo' \
+  -H 'content-length: 603' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Неожиданно спорт плавно поезд командир наткнуться вперед.","description":"Зато сходить грудь.\nЖидкий четко передо слишком. Банк висеть фонарик лететь.\nБлизко функция сынок палка приличный табак деловой. Результат палка ученый покинуть непривычный упор выбирать.","courseId":"b3c797ca-d5d7-4240-8ba3-cd6f55cf2cb7","maxScore":64,"minScore":3,"orderIndex":46,"estimatedTime":"10 weeks"}'

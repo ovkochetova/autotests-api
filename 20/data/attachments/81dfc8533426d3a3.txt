@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjA2OjU0LjE5MTU0MyIsInVzZXJfaWQiOiJjNzI2YWRhMy1kOTViLTQ0OGQtODI0MC0zNjdiNTFjMDUwNTEifQ.AYXwJMHPfWMDlIFL7Y64gkJhPF3I3NdIIVCRVEHCaOo' \
+  -H 'content-length: 615' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Волк умирать развитый порода трубка изменение выражение.","maxScore":100,"minScore":24,"description":"Выбирать пища блин. Умирать жестокий доставать хлеб освобождение рабочий.\nНамерение подробность коллектив отражение скользить торговля. Нажать тяжелый миф полевой ярко.","estimatedTime":"4 weeks","previewFileId":"5236ec13-c4d7-4cc3-8579-2c938e2cb0ed","createdByUserId":"c726ada3-d95b-448d-8240-367b51c05051"}'

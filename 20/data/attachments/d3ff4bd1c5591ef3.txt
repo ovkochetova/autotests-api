@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjA2OjU3Ljk0ODkzOSIsInVzZXJfaWQiOiI4NzQ4YTMyYS1mMzQxLTRhMjAtYjU4Yy0xMTQ0MDJlNWZmZGQifQ.kYdeK5YiCtdntJF2epa0v_TV2jphGzHaQekG3D-exH8' \
+  -H 'content-length: 598' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Отъезд ход голубчик процесс избегать ныне.","maxScore":87,"minScore":25,"description":"Мгновение наслаждение слать сынок поставить правление пламя отдел. Постоянный приятель реклама правильный рассуждение. Пропасть равнодушный дрогнуть спорт невозможно четыре.","estimatedTime":"3 weeks","previewFileId":"8d7a3e05-3094-44f7-8278-094566879307","createdByUserId":"8748a32a-f341-4a20-b58c-114402e5ffdd"}'

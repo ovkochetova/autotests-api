@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjA2OjU3LjY2NzYyOCIsInVzZXJfaWQiOiIzOTc2YThlOC0wNDc0LTQwYWEtYTlhZC03YWQ4ZmU1ZjVkZjYifQ.1GRrP1MyIq2i9vmecrqcSKZdqDEO1ssh_7YJDKQEmeM' \
+  -H 'content-length: 453' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Цвет граница багровый отъезд правление.","maxScore":52,"minScore":23,"description":"Висеть привлекать дорогой жить. Угол ход потянуться боец появление. Провинция девка один выраженный.","estimatedTime":"7 weeks","previewFileId":"464b69b0-1359-4f6c-a7a9-ee0c100c8509","createdByUserId":"3976a8e8-0474-40aa-a9ad-7ad8fe5f5df6"}'

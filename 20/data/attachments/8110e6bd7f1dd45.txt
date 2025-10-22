@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3c5c4c52-3b09-4fb1-ac37-e6920f82dba7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjA2OjU3Ljk0ODkzOSIsInVzZXJfaWQiOiI4NzQ4YTMyYS1mMzQxLTRhMjAtYjU4Yy0xMTQ0MDJlNWZmZGQifQ.kYdeK5YiCtdntJF2epa0v_TV2jphGzHaQekG3D-exH8' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Смертельный термин означать штаб появление грустный.","maxScore":91,"minScore":46,"description":"Полевой природа металл. Невозможно бак четыре нажать девка освобождение горький.","estimatedTime":"5 weeks"}'

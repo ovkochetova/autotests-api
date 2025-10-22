@@ -61,9 +61,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: artifact
-          path:
-            allure-history
-            allure-report
+          path: allure-results
           retention-days: 1
 
   publish-report:

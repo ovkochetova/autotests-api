@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjQyOjM4Ljc4ODIwNSIsInVzZXJfaWQiOiIwNjk0OGVhMC04MjczLTRlZjMtYjgxYy01NTk1NTBmZWJhMTkifQ.iK9qUyJ-oow009XNn6fmIt2KFsecsAohwXzvsbeR_bc' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Висеть за рот.","maxScore":58,"minScore":39,"description":"Правление ручей мягкий написать протягивать блин граница. Изредка падать деньги умирать отдел спорт.","estimatedTime":"10 weeks","previewFileId":"c50329c8-b476-4470-9cdf-7d80e8c6e5d1","createdByUserId":"06948ea0-8273-4ef3-b81c-559550feba19"}'

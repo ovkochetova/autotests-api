@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:20 Check create course response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Прошептать освобождение идея зато.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 62
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 39
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Пространство механический поговорить холодно.
+Намерение очутиться построить даль еврейский факультет командование. Расстройство карман приличный.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'preview_file_id' equals to dfd59b7b-49ea-4385-8608-db782b71cb75
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'created_by_user_id' equals to cadfef66-8b9c-4b7f-a791-c1c7d85bd33f
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

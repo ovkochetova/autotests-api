@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjQyOjQwLjYxMTUyNSIsInVzZXJfaWQiOiI0N2MyOGQxNy0xYzBiLTQwNDEtYjEwZS05ZDEwZGE5ZWE3NzkifQ.QOLn2Ak8iSJtqyzuA9FMRcCcmw788oYvHnhrBhaMt98' \
+  -H 'content-length: 653' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Близко миг пересечь торговля фонарик беспомощный.","maxScore":79,"minScore":14,"description":"Свежий второй бетонный. Полностью блин художественный банк пастух нервно. Картинка зато ученый магазин.\nСтакан отъезд дальний лапа необычный рот карман. Серьезный роса нервно войти настать дружно о.","estimatedTime":"9 weeks","previewFileId":"a3eecdf1-1200-4c9f-8b28-8c8d879f83cd","createdByUserId":"47c28d17-1c0b-4041-b10e-9d10da9ea779"}'

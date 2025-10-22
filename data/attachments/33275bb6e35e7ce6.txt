@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to  http://localhost:8000/api/v1/exercises?courseId=69d2a523-9c94-4c59-a9d9-e3efc6855fd1
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises?courseId=69d2a523-9c94-4c59-a9d9-e3efc6855fd1
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:111 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:44 Check that 'exercises' length equals to [CreateExerciseResponseSchema(exercise=ExerciseSchema(id='097d8b09-156a-4ff3-a29e-58d1407ec38d', title='Поезд выбирать сохранять возмутиться.', description='Присесть заплакать мусор ход низкий. Спешить виднеться носок возникновение функция вчера валюта.\nЕврейский заплакать возмутиться печатать.', course_id='69d2a523-9c94-4c59-a9d9-e3efc6855fd1', max_score=64, min_score=38, order_index=9, estimated_time='8 weeks'))]
+INFO     EXERCISE_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Поезд выбирать сохранять возмутиться.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'course_id' equals to 69d2a523-9c94-4c59-a9d9-e3efc6855fd1
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 64
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 38
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 9
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Присесть заплакать мусор ход низкий. Спешить виднеться носок возникновение функция вчера валюта.
+Еврейский заплакать возмутиться печатать.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

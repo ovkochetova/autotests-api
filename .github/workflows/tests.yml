@@ -65,7 +65,7 @@ jobs:
           ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
           path: gh-pages  # Указываем путь для сохранения отчётов
 
-      # 9. Шаг для генерации и отображения отчёта Allure
+      # 9. Шаг для генерации и  отображения отчёта Allure
       - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.12  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()  # Этот шаг тоже всегда выполняется

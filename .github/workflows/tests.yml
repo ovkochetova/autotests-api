@@ -63,22 +63,24 @@ jobs:
         continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
         with:
           ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
-          path: gh-pages  # Указываем путь для сохранения отчётов
+          path: allure-history  # Указываем путь для сохранения отчётов
 
       # 9. Шаг для генерации и отображения отчёта Allure
       - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.12  # Используем готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()  # Этот шаг тоже всегда выполняется
         with:
-          allure_results: allure-results  # Указываем каталог с результатами тестов
-          allure_history: allure-history  # Указываем каталог для истории отчётов Allure
+          allure_results: allure-results
+          allure_report: allure-report
+          gh_pages: gh-pages
 
       # 10. Шаг для сохранения отчета
       - name:  Upload test artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: allure-results
-          path: allure-results
+          name: allure-report
+          path: allure-report/
+          retention-days: 1
 
   publish-report:
     needs: run-tests
@@ -86,10 +88,14 @@ jobs:
 
     steps:
       # 1. Шаг загрузки отчета
-      - name: Download test artifacts
-        uses: actions/download-artifact@v5
+      - name: Download Allure report
+        uses: actions/download-artifact@v4
         with:
-          name: allure-results
+          name: allure-report
+
+      # Validating artifacts
+      - name: List report contents
+        run: ls -la allure-report/
 
       # 2. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
@@ -98,4 +104,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # Токен для аутентификации на GitHub
           publish_branch: gh-pages  # Указываем, что отчёт будет опубликован в ветке gh-pages
-          publish_dir: allure-history  # Указываем папку, которая будет опубликована на GitHub Pages
+          publish_dir: ./allure-report  # Указываем папку, которая будет опубликована на GitHub Pages

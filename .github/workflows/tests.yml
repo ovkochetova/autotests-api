@@ -72,7 +72,7 @@ jobs:
         with:
           allure_results: allure-results
           allure_report: allure-report
-          gh_pages: gh-pages
+          gh_pages: allure-history
 
       # 10. Шаг для сохранения отчета
       - name:  Upload test artifacts
@@ -92,6 +92,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: allure-report
+          path: allure-report
 
       # Validating artifacts
       - name: List report contents

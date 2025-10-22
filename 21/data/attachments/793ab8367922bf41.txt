@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjEwOjQ2LjM0NTcxMiIsInVzZXJfaWQiOiJhYjY3NjFlNy03NmUzLTQzNGQtYjc2OS1lMzk2OTFmNTBmM2YifQ.bTEHzTpyRLvsJlS15EvVIlJfFhuVCAk8iEHkzE_xamU' \
+  -H 'content-length: 542' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Вряд новый штаб совет шлем издали роса оставить.","description":"Пробовать эффект жить. Остановить июнь темнеть холодно что.\nСмелый юный какой ныне. Остановить банда белье плод ярко выразить недостаток. Аллея аж умирать цвет белье.","courseId":"b35e1020-b0c6-42d5-8190-a4b76e80b249","maxScore":54,"minScore":47,"orderIndex":90,"estimatedTime":"3 weeks"}'

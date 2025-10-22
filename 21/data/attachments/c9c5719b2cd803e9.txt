@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA5OjEwOjQ3LjgxMDU3NSIsInVzZXJfaWQiOiI4YjgzNWRlNy0wYmI4LTQ0ZWMtOTNmMC03MGZhMjYyOGVlNWIifQ.iHkJikAAPxZVYvd_7F5c7sDXH0jg_JIOSh87Rb_Oun0' \
+  -H 'content-length: 568' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Деньги дыхание ребятишки нервно потрясти.","maxScore":68,"minScore":14,"description":"Слишком конструкция второй ложиться дыхание бабочка наступать расстройство. Деловой носок болото. Дремать вытаскивать еврейский советовать банда спорт болото.","estimatedTime":"6 weeks","previewFileId":"a4abff7a-e40a-4826-9313-1e51f82ead19","createdByUserId":"8b835de7-0bb8-44ec-93f0-70fa2628ee5b"}'

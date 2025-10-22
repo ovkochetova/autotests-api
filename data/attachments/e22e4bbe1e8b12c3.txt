@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjU0OjM3LjY1MTk2OSIsInVzZXJfaWQiOiJkMmMxYWY4OS0zNjZmLTQwOTQtOWVlMy04NDI5Nzc1YmNiYWUifQ.TfUYxSlnDTt_cFguIK5-8xhxeZjNrHq14OnG7Acf_lU' \
+  -H 'content-length: 614' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Неудобно сопровождаться еврейский боец еврейский ныне.","maxScore":73,"minScore":21,"description":"Свежий плод выразить пища мрачно штаб радость. Построить пол способ функция.\nЕврейский космос понятный угроза изменение. Скрытый фонарик зачем написать левый очко желание.","estimatedTime":"4 weeks","previewFileId":"e0976787-d5b2-4da0-9e27-b65973e513ad","createdByUserId":"d2c1af89-366f-4094-9ee3-8429775bcbae"}'

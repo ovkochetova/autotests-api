@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjU0OjM3LjY1MTk2OSIsInVzZXJfaWQiOiJkMmMxYWY4OS0zNjZmLTQwOTQtOWVlMy04NDI5Nzc1YmNiYWUifQ.TfUYxSlnDTt_cFguIK5-8xhxeZjNrHq14OnG7Acf_lU' \
+  -H 'content-length: 507' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Фонарик отдел виднеться магазин порядок механический.","description":"Мелочь лиловый виднеться пропадать. Холодно миг танцевать кузнец трубка постоянный. Холодно задрать танцевать банда падать зеленый валюта.","courseId":"2e10b3d4-25d4-4f6f-b1c1-cfcbc422520f","maxScore":90,"minScore":21,"orderIndex":73,"estimatedTime":"10 weeks"}'

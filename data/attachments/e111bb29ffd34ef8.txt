@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjU0OjMzLjg5NDYwOCIsInVzZXJfaWQiOiJlODM3MmYyYi1jNTMxLTRlNTgtOTQxMS1mZWFkZDAzYTYwMDAifQ.GbrFNDXCsDsVnIWLLYwTxe_nPFZbvY9YyWR6xqGteNs' \
+  -H 'content-length: 573' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Багровый постоянный исполнять висеть.","maxScore":71,"minScore":35,"description":"Место сынок плод. Художественный расстегнуть военный команда смелый потрясти.\nБровь выразить цвет рот. Столетие доставать район. Райком ботинок наткнуться плод палка.","estimatedTime":"6 weeks","previewFileId":"968301fe-aa81-4396-a55d-f219593bed67","createdByUserId":"e8372f2b-c531-4e58-9411-feadd03a6000"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDA4OjU0OjMzLjYxMjY1NyIsInVzZXJfaWQiOiI4MjljODJlMi1iOGZiLTRkZjktOTMxOC1jOTM0ODkzOWQyYWMifQ.WMu5utKYmH4UMIC3G1J4Sm-6q8zzZBApF8IIZM4Xc3g' \
+  -H 'content-length: 630' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Основание потом непривычный экзамен прелесть.","maxScore":85,"minScore":7,"description":"Около расстройство увеличиваться домашний потянуться скрытый.\nВоенный порт дурацкий. Невыносимый редактор ложиться сверкающий солнце социалистический. Монета поставить виднеться господь.","estimatedTime":"7 weeks","previewFileId":"7cb4fc01-d239-49dc-b2f4-84bf2868e898","createdByUserId":"829c82e2-b8fb-4df9-9318-c9348939d2ac"}'

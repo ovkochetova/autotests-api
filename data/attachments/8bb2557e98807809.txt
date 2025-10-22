@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to  http://localhost:8000/api/v1/exercises/19f9fee4-b9ad-45e1-b756-202e66916229
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises/19f9fee4-b9ad-45e1-b756-202e66916229
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:76 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Уточнить адвокат дальний сохранять монета дружно плод коллектив.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 74
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 23
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 45
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Инвалид конференция нервно коммунизм коричневый. Нервно эпоха отдел кольцо подземный идея.
+Невозможно холодно сверкать коллектив. Решение тяжелый место солнце факультет дремать обида.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Инвалид конференция нервно коммунизм коричневый. Нервно эпоха отдел кольцо подземный идея.
+Невозможно холодно сверкать коллектив. Решение тяжелый место солнце факультет дремать обида.
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

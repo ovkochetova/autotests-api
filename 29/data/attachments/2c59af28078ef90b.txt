@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to  http://localhost:8000/api/v1/exercises/0967d248-d3d3-4b57-b79e-de6e98d6889d
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/exercises/0967d248-d3d3-4b57-b79e-de6e98d6889d
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:76 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Торопливый песня жить приятель.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 58
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 9
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'order_index' equals to 38
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Мусор ныне советовать пропаганда рабочий.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Мусор ныне советовать пропаганда рабочий.
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

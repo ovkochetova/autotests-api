@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDExOjE0OjU1LjM2NjA0OSIsInVzZXJfaWQiOiI0YmEwODFkYS04OThmLTQ1MWItYmJkNy0yNmQzZmQ0NWI3MzUifQ.kwuYwKtuulMyRDtwpvSPrlQx2FVC3KmB8WXpX-xgEto' \
+  -H 'content-length: 443' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Развитый художественный умирать идея зима неправда нажать.","maxScore":69,"minScore":45,"description":"Указанный нервно мотоцикл. Естественный сходить слишком выгнать задержать.","estimatedTime":"4 weeks","previewFileId":"63a58a26-f5ab-4b4c-a9c8-7073844bbb40","createdByUserId":"4ba081da-898f-451b-bbd7-26d3fd45b735"}'

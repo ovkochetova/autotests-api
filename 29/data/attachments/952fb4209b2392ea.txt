@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDExOjE0OjU3LjAxMTMyMCIsInVzZXJfaWQiOiI5NDQ5MTU0MC1lY2M4LTQ3NzgtOTUwOC05ZjRlZTFmMWQxZjAifQ.Cxy0W1OVMrF5DlWvt6mO8hYX5VMeyEr_U_GS_jcXTKQ' \
+  -H 'content-length: 531' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Порядок медицина академик хозяйка пламя горький.","maxScore":73,"minScore":18,"description":"Написать приличный горький. Левый песня о тута. Песенка пропадать ход заявление. Полюбить чем прошептать эпоха прошептать невозможно.","estimatedTime":"8 weeks","previewFileId":"afb87092-8c6b-4683-bc12-f95f57068453","createdByUserId":"94491540-ecc8-4778-9508-9f4ee1f1d1f0"}'

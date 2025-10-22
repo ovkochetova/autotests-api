@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDExOjE0OjU0LjA1NTc4MCIsInVzZXJfaWQiOiI4Y2QyODVmMS03NGExLTQxMjItYjUzOS1iNTc1OWU1ODNlNTIifQ.xhqqcAHlLTXE9Jsa_pCr4ypMlZa_MEUFtxnDsRwFbwk' \
+  -H 'content-length: 547' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Собеседник бабочка сверкать серьезный.","maxScore":75,"minScore":45,"description":"Неудобно тяжелый нажать домашний передо песня каюта. Мотоцикл беспомощный уничтожение житель избегать. Сынок мрачно горький жестокий трубка заявление.","estimatedTime":"3 weeks","previewFileId":"d2d65597-3961-4618-af31-a227d15d8990","createdByUserId":"8cd285f1-74a1-4122-b539-b5759e583e52"}'

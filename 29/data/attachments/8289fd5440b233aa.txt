@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to  http://localhost:8000/api/v1/courses?userId=c5081033-fbdb-497f-bb48-bccabc2575d9
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses?userId=c5081033-fbdb-497f-bb48-bccabc2575d9
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:53 Check get course response
+INFO     BASE_ASSERTIONS:base.py:44 Check that 'courses' length equals to [CreateCourseResponseSchema(course=CourseSchema(id='fbbb3870-5d0a-45ec-8a51-adc4ff97fb63', title='Сравнение развернуться чем человечек.', max_score=87, min_score=49, description='Сынок бок чувство неправда художественный видимо. Выражение наслаждение зачем отметить иной. Миллиард выразить прошептать мучительно шлем зарплата.', estimated_time='5 weeks', preview_file=FileSchema(id='0d612772-45aa-42b0-90aa-e6cccfc4904f', url=HttpUrl('http://localhost:8000/static/tests/3eb92a1d-eec8-4461-ab92-15c38b6fe4f3.png'), filename='3eb92a1d-eec8-4461-ab92-15c38b6fe4f3.png', directory='tests'), created_by_user=UserSchema(id='c5081033-fbdb-497f-bb48-bccabc2575d9', email='tatjana_22@example.org', first_name='Пантелеймон', last_name='Кузнецова', middle_name='Ипат')))]
+INFO     COURSE_ASSERTIONS:course.py:40 Check course
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'id' equals to fbbb3870-5d0a-45ec-8a51-adc4ff97fb63
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Сравнение развернуться чем человечек.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 87
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 49
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Сынок бок чувство неправда художественный видимо. Выражение наслаждение зачем отметить иной. Миллиард выразить прошептать мучительно шлем зарплата.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 5 weeks
+INFO     FILE_ASSERTIONS:files.py:29 Check file
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'id' equals to 0d612772-45aa-42b0-90aa-e6cccfc4904f
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'url' equals to http://localhost:8000/static/tests/3eb92a1d-eec8-4461-ab92-15c38b6fe4f3.png
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'filename' equals to 3eb92a1d-eec8-4461-ab92-15c38b6fe4f3.png
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'directory' equals to tests
+INFO     USER_ASSERTIONS:users.py:19 Check user
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'id' equals to c5081033-fbdb-497f-bb48-bccabc2575d9
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'email' equals to tatjana_22@example.org
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'first_name' equals to Пантелеймон
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'last_name' equals to Кузнецова
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'middle_name' equals to Ипат
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

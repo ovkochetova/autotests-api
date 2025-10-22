@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDExOjE0OjU0LjY5NDMyMSIsInVzZXJfaWQiOiI5YjAxYmEyNy1kZTI5LTQ4ZjItYTJjMy0wYTUwYjdkNTc4ZDUifQ.Z6Sk7J4Q_ic8ApbNNBRmmfFIFJUNjPM7053lf0BewxE' \
+  -H 'content-length: 646' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Казнь реклама магазин присесть тута правление некоторый запеть.","maxScore":87,"minScore":11,"description":"Идея засунуть приятель. Трубка ручей наткнуться солнце счастье.\nДьявол висеть приходить порт ставить похороны. Чувство разуметься мучительно функция новый избегать увеличиваться.","estimatedTime":"3 weeks","previewFileId":"ea21d970-876e-496f-bc50-4fc2d03c7525","createdByUserId":"9b01ba27-de29-48f2-a2c3-0a50b7d578d5"}'

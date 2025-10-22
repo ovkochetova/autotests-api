@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjM3OjU4Ljg5NDQ0MCIsInVzZXJfaWQiOiI1YzAxNDdmNC01ZDRiLTQxYjMtYTY3Yy01ZjRkMWNmZjdkNzMifQ.VUetxzG0lPa_uXnkYGhr1jSsvl2cqYzVV_2CpAvm_q8' \
+  -H 'content-length: 552' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Бетонный потянуться художественный еврейский кидать.","maxScore":67,"minScore":37,"description":"Выкинуть ночь дорогой потом актриса. Вскинуть промолчать хлеб устройство около важный аж заведение. Ребятишки другой эффект научить ломать.","estimatedTime":"2 weeks","previewFileId":"bc8cc127-c3db-4190-a2a5-985eec56aa5b","createdByUserId":"5c0147f4-5d4b-41b3-a67c-5f4d1cff7d73"}'

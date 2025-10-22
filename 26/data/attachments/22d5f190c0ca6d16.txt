@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjM3OjU2LjgzOTg1NiIsInVzZXJfaWQiOiJhMjk0YzZiMC1hNDZlLTQ5NWItOWM5Mi1iOWY1NDA1NmVmNjMifQ.fvyF8u-rsjrAq5BNW0mclFuEQ2knKWJy9Juh05glslY' \
+  -H 'content-length: 444' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Зачем смелый советовать.","maxScore":79,"minScore":28,"description":"Грудь социалистический славный соответствие интеллектуальный. Мотоцикл посвятить рот цепочка тусклый райком.","estimatedTime":"7 weeks","previewFileId":"4c96247f-d755-448e-846f-611f00c4b55f","createdByUserId":"a294c6b0-a46e-495b-9c92-b9f54056ef63"}'

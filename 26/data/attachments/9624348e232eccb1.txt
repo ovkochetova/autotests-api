@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/56e63178-b35d-4626-abc3-cfec9235cda8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjM3OjU1LjExMjY3NyIsInVzZXJfaWQiOiIwYjMxOWIyMi0zNTQ5LTRhNTAtYTM1Zi03ZjU4MDMyYWVlMTgifQ.kXP3UpGeYjBfAHlzECljZOMZCluQcO8KdAylSFaqJ3k' \
+  -H 'content-length: 472' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Тяжелый а отметить дружно оставить магазин.","description":"Князь выгнать единый следовательно угроза. Наступать командование чем торговля настать степь ночь белье. Заложить основание потом остановить посидеть видимо.","maxScore":94,"minScore":49,"orderIndex":67,"estimatedTime":"5 weeks"}'

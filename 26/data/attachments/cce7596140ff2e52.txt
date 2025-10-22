@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjM3OjU4LjA1ODk0MiIsInVzZXJfaWQiOiJlMzIyZTY4MC1iNTI3LTQ5ZDEtOTFjNi0zNDYxYjZkMDZkYzgifQ.I4qnvtPQd3bzseIckDf_lOiu327l9NxUgfcqaAA8p-Q' \
+  -H 'content-length: 647' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Плясать ярко пространство смертельный витрина.","maxScore":95,"minScore":3,"description":"Горький развернуться выражение хотеть рот.\nРай головной трясти эффект более. Забирать мгновение четыре экзамен умолять слишком при трубка. Сопровождаться спичка применяться процесс уронить вообще.","estimatedTime":"4 weeks","previewFileId":"66976f7a-b7c4-403b-83b0-4feb3eef2600","createdByUserId":"e322e680-b527-49d1-91c6-3461b6d06dc8"}'

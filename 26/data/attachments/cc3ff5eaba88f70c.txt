@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDEwOjM3OjU1LjExMjY3NyIsInVzZXJfaWQiOiIwYjMxOWIyMi0zNTQ5LTRhNTAtYTM1Zi03ZjU4MDMyYWVlMTgifQ.kXP3UpGeYjBfAHlzECljZOMZCluQcO8KdAylSFaqJ3k' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Намерение анализ природа четыре.","description":"Сходить команда мрачно миллиард бегать металл столетие. Художественный разуметься скрытый.","courseId":"d18824f9-e964-4e98-aa03-b01db539225d","maxScore":78,"minScore":3,"orderIndex":82,"estimatedTime":"4 weeks"}'

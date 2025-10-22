@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:20 Check create course response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Зачем смелый советовать.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 79
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 28
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Грудь социалистический славный соответствие интеллектуальный. Мотоцикл посвятить рот цепочка тусклый райком.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'preview_file_id' equals to 4c96247f-d755-448e-846f-611f00c4b55f
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'created_by_user_id' equals to a294c6b0-a46e-495b-9c92-b9f54056ef63
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

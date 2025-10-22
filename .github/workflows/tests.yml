@@ -5,10 +5,10 @@ name: API tests
 on:
   push:
     branches:
-      - main  # Запускать workflow, когда будет сделан коммит в ветку main
+      - master  # Запускать workflow, когда будет сделан коммит в ветку master
   pull_request:
     branches:
-      - main  # Запускать workflow, когда будет сделан pull request в ветку main
+      - master  # Запускать workflow, когда будет сделан pull request в ветку master
 
 # Определяем все шаги, которые должны быть выполнены в рамках работы с тестами
 jobs:

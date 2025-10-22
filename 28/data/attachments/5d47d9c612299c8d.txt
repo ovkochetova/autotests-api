@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDExOjEwOjIxLjIwMTUwNyIsInVzZXJfaWQiOiI1NDIyZTZlOC1hYjA5LTQxNTctYmVjYy1kNGNjMmFlZWM5ZjQifQ.It4pZ0ZdyfjkgruI5JwRnxd6njaecRP-7hOfc4klyP0' \
+  -H 'content-length: 519' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Научить крыса ярко находить металл разуметься слишком.","maxScore":64,"minScore":46,"description":"Сомнительный дурацкий пропасть витрина потянуться зима. Покинуть за бочок правильный фонарик приличный висеть покидать.","estimatedTime":"5 weeks","previewFileId":"182a092c-c80b-4a3e-b22b-da4f44b2b5db","createdByUserId":"5422e6e8-ab09-4157-becc-d4cc2aeec9f4"}'

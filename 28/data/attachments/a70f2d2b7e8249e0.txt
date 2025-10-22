@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to  http://localhost:8000/api/v1/courses/5f7a69b7-aa89-4307-8ed5-d305f646ddfc
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses/5f7a69b7-aa89-4307-8ed5-d305f646ddfc
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:31 Check update course response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Ломать передо отдел невозможно карман одиннадцать жестокий один.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 53
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 34
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Мальчишка ломать непривычный пастух. Выдержать невозможно функция выражаться космос плавно гулять.
+Сынок бок растеряться второй термин.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema

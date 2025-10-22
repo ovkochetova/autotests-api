@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTIyVDExOjEwOjE5LjY1NDQ2OCIsInVzZXJfaWQiOiI4Yjc0ZjcyMi1hYTdkLTQzOTUtOGExOS0zN2Y2ZjFjZTJlMDgifQ.mFcVEUaZbjC6WFvgGs0RQRQOijZrPuIGfvJseUSELnk' \
+  -H 'content-length: 585' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Славный основание совещание рот штаб пространство мягкий.","maxScore":50,"minScore":41,"description":"Славный головка редактор банк редактор. Находить смеяться выраженный поздравлять коммунизм. Легко заявление салон собеседник граница еврейский инвалид.","estimatedTime":"3 weeks","previewFileId":"8e8f7705-f01b-45a9-9ae0-79db5892e619","createdByUserId":"8b74f722-aa7d-4395-8a19-37f6f1ce2e08"}'

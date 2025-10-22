@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to  http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:34 GOT 200 response to  OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:10 Check that response status code equal 200
+INFO     COURSE_ASSERTIONS:course.py:20 Check create course response
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'title' equals to Научить крыса ярко находить металл разуметься слишком.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'max_score' equals to 64
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'min_score' equals to 46
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'description' equals to Сомнительный дурацкий пропасть витрина потянуться зима. Покинуть за бочок правильный фонарик приличный висеть покидать.
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'estimated_time' equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'preview_file_id' equals to 182a092c-c80b-4a3e-b22b-da4f44b2b5db
+INFO     BASE_ASSERTIONS:base.py:19 Check that 'created_by_user_id' equals to 5422e6e8-ab09-4157-becc-d4cc2aeec9f4
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating json schema
